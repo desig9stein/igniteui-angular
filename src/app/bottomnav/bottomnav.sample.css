@@ -1,7 +1,7 @@
 .tabbar-wrapper {
     position: relative;
     height: 540px;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
     overflow: hidden;
 }
 
@@ -19,6 +19,8 @@
 .item > .person {
     position: absolute;
     margin-left: 72px;
+    left: 16px;
+    top: 1px;
 }
 
 .person .name {
